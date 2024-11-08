@@ -1,0 +1,24 @@
+# MAC, vim, emacs goofiness
+.DS_STORE
+.DS_STORE?
+*~
+*#
+.#*
+.nfs*
+.*.sw?
+*.bak
+
+# python
+__pycache__/
+*.py[cod]
+
+# TeX/LaTeX
+*.blg
+*.aux
+*.log
+*.bbl
+*.out
+*.synctex
+*.synctex.gz
+
+.ipynb_checkpoints/
