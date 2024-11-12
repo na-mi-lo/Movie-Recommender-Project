@@ -15,10 +15,9 @@ Each week, for the checkpoint you need to fill out by **Monday Night** (so I hav
 This is what you plan to accomplish in the first week of the project, leading up
 to our lab meeting.  You must fill this in as part of your proposal.
 * Hand in the full proposal
-* **TODO:  Fill in this section for each week as part of the proposal**
-* Task/Goal 1
-* Task/Goal 2
-* etc.
+* Task/Goal 1: Start Playing with the different algorithms
+* Task/Goal 2: Download the dataset and get it into github
+* Task/Goal 3: Determine which weights of which features affects the data more
 
 ### Update ###
 
@@ -40,11 +39,9 @@ reflect the changes).
 
 ### Goals ###
 
-* **TODO:  Fill in this section for each week as part of the proposal**
 * Present mid-project review in lab
-* Task/Goal 1
-* Task/Goal 2
-* etc.
+* Task/Goal 1: Continue working on implementing the different algorithms (if needed)
+* etc...
 
 ### Update ###
 
@@ -65,10 +62,8 @@ reflect the changes).
 
 ### Goals ###
 
-* **TODO:  Fill in this section for each week as part of the proposal**
-* Task/Goal 1
-* Task/Goal 2
-* etc.
+* Task/Goal 1: Be Done with code!
+* Task/Goal 2: Enjoy Thanksgiving <3
 
 ### Update ###
 
@@ -91,9 +86,7 @@ reflect the changes).
 
 ### Goals ###
 
-* **TODO:  Fill in this section for each week as part of the proposal**
-* Task/Goal 1
-* Task/Goal 2
+* Task/Goal 1: Complete Final Paper
 * etc.
 
 ### Update ###
