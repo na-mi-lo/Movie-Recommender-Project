@@ -24,10 +24,10 @@ to our lab meeting.  You must fill this in as part of your proposal.
 Complete this section ahead of lab for week 1 of the project
 * We handed in our proposal and created this timeline
 * We have also completed ...
-* We are stuck on ...
+* We are working on creating a more detailed phased plan
 
 ### Requests ###
-We need advice about/help with ... (optional):
+We need advice about/help with ... (optional): The models that we are going to be using
 
 ------
 ## Week 2 Planning
@@ -40,8 +40,9 @@ reflect the changes).
 ### Goals ###
 
 * Present mid-project review in lab
-* Task/Goal 1: Continue working on implementing the different algorithms (if needed)
-* etc...
+* Task/Goal 1: Research more into Lasso Regression
+* Task/Gaol 2: Importing libraries for the models
+* Task/Goal 3: 
 
 ### Update ###
 
