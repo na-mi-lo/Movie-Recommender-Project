@@ -16,8 +16,8 @@ This is what you plan to accomplish in the first week of the project, leading up
 to our lab meeting.  You must fill this in as part of your proposal.
 * Hand in the full proposal
 * Task/Goal 1: Start Playing with the different algorithms
-* Task/Goal 2: Download the dataset and get it into github
-* Task/Goal 3: Determine which weights of which features affects the data more
+* Task/Goal 2: Download and store movie list data file 
+* Task/Goal 3: Determine which weights of which features affects the data more 
 
 ### Update ###
 
@@ -40,9 +40,10 @@ reflect the changes).
 ### Goals ###
 
 * Present mid-project review in lab
-* Task/Goal 1: Research more into Lasso Regression
+* Task/Goal 1: Research more into Lasso Regression <-- Mavis
 * Task/Gaol 2: Importing libraries for the models
-* Task/Goal 3: 
+* Task/Goal 3: Normalize and clean up the data file
+* Task/Goal 4: Implement algorithms (KNN: Opeyemi, Logistic Regression: Jayden, Lasso: Mavis, Random Forests: Natassia)
 
 ### Update ###
 
