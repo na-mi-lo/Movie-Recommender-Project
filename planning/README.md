@@ -48,11 +48,11 @@ reflect the changes).
 ### Update ###
 
 Complete this section ahead of lab for week 2 of the project
-* We have also completed ...
-* We are stuck on ...
+* We have completed Lasso Regression and Nueral Network Implementation 
+* We are stuck on low accuracy with Lasso Regression and NN
 
 ### Requests ###
-We need advice about/help with ... (optional):
+We need advice about/help with: what we do do about the low accuracy scores
 
 ------
 ## Week 3 Planning
@@ -71,11 +71,11 @@ reflect the changes).
 
 Complete this section ahead of lab for week 3 of the project
 
-* We have also completed ...
-* We are stuck on ...
+* We have completed Random Forests and KNN Implementation
+* We are stuck on data visualization
 
 ### Requests ###
-We need advice about/help with ... (optional):
+We need advice about/help with:
 
 
 ------
