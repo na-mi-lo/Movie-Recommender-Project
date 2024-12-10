@@ -78,7 +78,7 @@ We developed a pipeline to classify film revenue by features, illustrated in Fig
 \begin{figure}[H]
     \centering
     \vspace{0.3cm} % Add spacing between the title and figure
-    \includegraphics[width=1\linewidth]{WechatIMG1163.png} % Ensure the file name is correct
+    \includegraphics[width=1\linewidth]{pipeline.png} % Ensure the file name is correct
     \caption{Workflow for film revenue classification. Starting with data pre-processing, followed by assessing linear relationships between features and revenue. Three non-linear machine learning models, Random Forest, K-Nearest Neighbors (KNN), and Neural Network, are applied. The models are then evaluated to determine their effectiveness in predicting film revenue.}
     \label{fig:film_revenue_pipeline}
 \end{figure}
@@ -135,7 +135,7 @@ The neural network's performance is evaluated using accuracy and loss plots, whi
 \begin{figure}[H] 
     \centering
     \vspace{0.3cm} 
-    \includegraphics[width=1.1\linewidth]{image.png} % Ensure the file name is correct
+    \includegraphics[width=1.1\linewidth]{linear_test.png} % Ensure the file name is correct
     \caption{Scatter plots illustrating the relationship between individual features on the x-axis and revenue on the y-axis. The \( R^2 \) values indicate the strength of linearity. \( R^2 \) values closer to zero indicate weak linear relationships, while \( R^2 \) values closer to one indicate stronger linear relationships. The results demonstrate weak to moderate linear correlations between individual features and revenue.}
     \label{fig:scatter_plots}
 \end{figure}
@@ -173,7 +173,7 @@ Training and validation accuracy were tracked over epochs to monitor convergence
 \begin{figure}[H] % Keeps the figure at the exact location
     \centering
     \vspace{0.3cm} % Add spacing between the title and figure
-    \includegraphics[width=1.0\linewidth]{WechatIMG1162.png} % Ensure file is correctly uploaded
+    \includegraphics[width=1.0\linewidth]{nn_accuracy.png} % Ensure file is correctly uploaded
     \caption{Training and validation accuracy of the neural network over 300 epochs with 2 revenue classes. The x-axis represents training epochs, and the y-axis represents accuracy. The curves demonstrate consistent convergence, with validation accuracy stabilizing at 82\%, indicating effective generalization.}
     \label{fig:training_validation_accuracy}
 \end{figure}
