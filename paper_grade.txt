@@ -1,0 +1,87 @@
+Overall: 81/100
+
+1. ( 4/5) Abstract: Does the abstract summarize the central question, methods,
+and conclusions of your work? Is the abstract concise?
+  - length is fine
+  - actual numbers for results summary would be preferable
+  - abstract does not need to contain references to the structure of the paper (i.e. "Lastly..." does not belong here)
+
+
+2. ( 12/15) Introduction and Background: Does the paper introduce the key
+issues/central questions (the what), motivate the work (the why), and clearly
+outline the approach taken to address these questions (the how)?  Does the
+paper introduce the relevant background information necessary to understand the
+rest of the paper (with proper citations)?
+
+  - try to avoid hyperbole in science writing; e.g. "Box office revenue is universally seen as a definitive metric of success", is this really *universal*?  I'd bet that not everyone agrees that higher-revenue films are actually better quality.
+
+  - on the other hand, if you really *do* want to make a claim like this, it needs to be supported with a citation to a source that supports the claim
+
+  - this section on the whole is too short; your intro is barely longer than your abstract!  It hits the highlights, but lacks detail and doesn't cover any background/related work
+
+
+3. ( 20/25) Methodology: Is your algorithmic approach clearly described? Are the
+experiments clearly described (key parameter settings, data set, evaluation
+metrics) so that they can be replicated? Are figures/equations/pseudocode used
+where appropriate? Is the approach suitable/justified to address the main
+question? Is the paper appropriate for the target audience?
+
+  - it's not the *paper* that aimed to predict revenue; you can just say "We" instead of "The paper" in this context, or re-phrase as "In order to predict...we developed..."
+
+  - in Fig 1, you claim these are all non-linear models, but Logistic Regression *is* a linear model.  Also, the caption here is more detailed than you need; either explain in text *or* give a flow-chart, but don't make a flow-chart that's redundant with the text
+
+  - dataset description needs a citation to the source of the data
+
+  - need to explain what "StandardScalar" actually does, as well as provide citations to libraries that you used (e.g. SciKit-Learn, etc.)
+
+  - providing the details for your linear fit here is fine, but it would also be acceptable to remove details and instead provide a citation to a source that has those details (this is a useful way of saving space when using a method that isn't completely novel)
+
+  - Algorithm 1 is a fine use of the Algorithm environment, but the content is simple enough I'm not sure it really needs to be set out as an algorithm
+
+  - again, Logistic Regression is not a non-linear model.  Also, most of these models don't actually capture "interactions among features" (only the neural nets can possibly do this)
+
+  - Each of your methods needs a citation; Neural Nets is the only section that has one.  This is necessary both because you need to acknowledge who actually came up with the method (otherwise you're implicitly claiming that *you* did), and because you need to give a reader somewhere to go for more details if your short summary isn't sufficient for them to understand (i.e. if I didn't already know how Logistic Regression worked, your description wouldn't be enough for me to figure it out; that's fine, but only if you provide a pointer to where I should go for more information)
+
+  - per-method subsections lack consistency between them; even if they were actually written by different authors, try to make them more similar (in content as well as style, e.g. some talk about evaluation metrics, others don't)
+
+  - you describe the ANN as having 3 hidden layers, but how many nodes were in each layer?
+
+4. ( 20/25) Results and Discussion: Are the results clearly presented and
+analyzed? Are graphs and tables used where appropriate?
+
+  - NOTE: in this context, a "caption" is not the same as "alt-text"; it's not really supposed to be a text-based equivalent to the figure, but rather give any basic info necessary to *interpret* the figure that isn't in the figure itself.  The captions for the tables are more what I would expect (as opposed to the ones for figures)
+
+  - the organization of this section is poor and leads to confusion.  For example, you start with the most complex model (with the best performance), and then talk about how it compares to other models...that you haven't showed us the performance of yet.  Also, the different methods have results presented in different formats (table structures, etc.), and they are spread far apart.  This makes it difficult for the reader to compare them.  It would be preferable to have the results for the different methods presented together, e.g. in a single table showing the accuracy/precision/recall/etc. for each method.  After that, you could then break things out into smaller tables to look at the details of particular methods.  Finally, you could have a single "Discussion" section that talked about all the different results and the relationships between them.  At times this feels more like several mini-papers that were stapled together, rather than a single coherent paper about one project.
+
+  - don't explain what Logistic Regression is in your Results section; that belongs in Methods
+
+  - validation methodology is unclear for most of these methods; are these numbers the result of a single run of hold-out validation?  If so what was the train/test ratio?  This is explained for the Neural Nets, but not anything else (and even there it's not clear why hold-out was chosen instead of k-fold)
+
+  - Saying you used "feature_importances_" doesn't help if you don't explain how those numbers were calculated and/or what they mean
+
+  - overall this section focus very heavily on describing the raw results; I'd really like to see more actual analysis and discussion of what the results *mean* (i.e. what are we supposed to take away from this, besides just 'high-budget movies are somewhat more likely to have high revenue')
+
+
+5. ( 14/15) Social Implications: Have key stakeholders been identified? Are the
+implications of this work on those stakeholders identified and analyzed? On the
+relationships between those stakeholders? Does the analysis consider multiple
+perspectives?
+
+  - the issues you raise here are generally good ones
+
+  - another issue that should be pointed out here is the fact that this is probably a moving target; people like variety, so even if you figured out the 'magic formula' for a high-budget movie, after the first few near-identical films everyone would get bored and stop going, which would change the formula.  In other words, the short-term correctness of predictions of the system might actually invalidate its ability to make correct predictions in the longer term.  You also didn't really make much note of the fact that some of these films are from over a hundred years ago, and a lot of the factors that make a film popular might not be the same across that whole time range.
+
+  - your models are also making an implicit assumption here that there's some sort of "average" movie-goer that is sufficiently representative of the population as a whole; you mention discrimination within the movie making industry, but there's also issues with assuming that the movie-watching public is uniform and/or that we only care about satisfying the largest groups.
+
+6. ( 7/10) Is there a substantive conclusion? Are future directions for this
+work described?
+
+  - again, this section appears to be shorter than your abstract; it needs more detail
+
+
+7. ( 4/5) Is there a bibliography provided with complete citations to relevant
+papers?
+
+  - the references you have here are fine, but as noted previously there are a bunch of places where you should be citing references (but didn't)
+
+

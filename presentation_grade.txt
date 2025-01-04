@@ -1,0 +1,45 @@
+Total: (44-45)/50
+
+
+============================================================
+Mavis, Jayden, **Natassia**, Opeyemi - V1 (for Natassia)
+----------------------------------------
+Organization: 8
+Delivery: 9
+Content: 9
+Timing: 10 [13:30]
+Q/A: 9
+Notes:
+  - introduced selves, TOC slide
+  - text size reasonable, slides a little text heavy
+  - reasonable volume+clarity
+    - but tendency to look at slides rather than audience sometimes hinders this
+  - some slides go past fast enough we don't really have time to read everything
+  - can't really read some figures (e.g. learning curve for ANN)
+  - lots of time spent on describing learning algorithms (even though they're
+    just standard basic ones)
+  - can't read text on many figures in results (e.g. scatter plots, confusion mat, etc.)
+  - different methods have results presented in very different formats, makes comparison difficult
+  - some transitions unclear; at times it seems sort of like 4 different mini-projects that got stuck together
+
+
+
+============================================================
+jbooker1-zgao1-nlowe1-oogunde1 (without Natassia)
+----------------------------------------
+Organization: 9
+Delivery: 8
+Content: 8
+Timing: 10 [13:00]
+Q/A: 9
+Notes:
+  - speech is audible, but a bit on the quiet side for the space (especially Jaden)
+  - try not to talk to the screen
+  - good call on inflation adjustment
+  - some slides are rather text heavy (e.g. neural net slide, logistic regression slide)
+  - most slide text is a readable size, but text in figures is often too small (e.g. loss curve figure, 'initial relationships')
+  - blue on black isn't great contrast
+  - too much time spent explaining how basic methods work (we all know how KNN and random forests work by now)
+  - try to repeat questions for audience before answering, and answer for the whole group, not just the person who asked
+
+
